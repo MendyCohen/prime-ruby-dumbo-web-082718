@@ -2,7 +2,7 @@
 
 def prime?(num)
   if num == 2
-    true
+    return true
   end
   (2..num).each do |x|
    if num % x === 0
