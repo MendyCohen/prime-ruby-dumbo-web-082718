@@ -1,11 +1,8 @@
 #Add  code here!
 
 def prime?(num)
-  if num % num === 0
-    true
-  elsif num % num ===
-    false
-  end
+  (2..num).each do |x|
+    num % x === 0
 end 
 
   
